@@ -13,7 +13,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="h-full">
-      <body className="bg-grey-100 dark:bg-blue-900 text-gray-800 dark:text-gray-200 min-h-screen flex flex-col">  
+      <body className="bg-grey-100 dark:bg-white text-gray-800 dark:text-gray-900 min-h-screen flex flex-col">  
         {/* Navbar */}
         <nav className="flex items-center justify-between px-6 py-4 lg:px-8 bg-white rounded-2xl shadow-lg max-w-screen-xl w-full mx-auto">
           <div className="flex items-center gap-x-3 lg:flex-1">
@@ -50,7 +50,7 @@ export default function RootLayout({
           <ul className="hidden lg:flex lg:gap-x-8">
             <li><Link href="/" className="hover:underline text-base font-semibold text-gray-900">Home</Link></li>
             <li><Link href="/about" className="hover:underline text-base font-semibold text-gray-900">About</Link></li>
-            <li><Link href="/projects" className="hover:underline text-base font-semibold text-gray-900">Projects</Link></li>
+            <li><Link href="/Projects" className="hover:underline text-base font-semibold text-gray-900">Projects</Link></li>
             <li><Link href="/contact" className="hover:underline text-base font-semibold text-gray-900">Contact</Link></li>
             <li><Link href="/blog" className="hover:underline text-base font-semibold text-gray-900">Blog</Link></li>
           </ul>

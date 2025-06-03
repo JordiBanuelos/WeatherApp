@@ -1,13 +1,8 @@
-import connect from "../../../../../lib/db";
-import { NextResponse } from "next/server";
-import User from "../../../../../lib/modals/user";
+// app/api/sensors/route.ts (Next.js 13/14 API Route)
+import { NextResponse } from 'next/server'
 
-export const GET = () => {
-    try {
-        await connect();
-        const users = await User.find();
-        return new NextResponse(JSON.stringify(users), {status: 200});
-    } catch (error) {
-        return NextResponse.json({ error: "Failed to fetch users" }, { status: 500 });
-    }
-};
+export async function GET() {
+  const res = await fetch('https://crocus.sagecontinuum.org/api/node/W08D/latest')
+  const data = await res.json()
+  return NextResponse.json(data)
+}
