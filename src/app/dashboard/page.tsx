@@ -2,8 +2,9 @@
 //import TemperatureDisplay from '@/components/TemperatureDisplay';
 import TemperatureChart from '@/components/TemperatureChart';
 import HumidityChart from '@/components/HumidityChart';
-import RainAccumChart from '@/components/RainAccumChart';
+import RainAccumChart from '@/components/COChart';
 import WindspeedChart from '@/components/WindspeedChart';
+import COChart from '@/components/COChart';
 
 
 export default function DashboardPage() {
@@ -31,8 +32,8 @@ export default function DashboardPage() {
           <TemperatureChart />
         </div>
         <div className="bg-white rounded-lg shadow-md p-4 border border-gray-200">
-          <h2 className="text-lg font-medium mb-3">Rainfall Levels</h2>
-            <RainAccumChart />
+          <h2 className="text-lg font-medium mb-3">Carbon Monoxide Levels</h2>
+            <COChart />
         </div>
         <div className="bg-white rounded-lg shadow-md p-4 border border-gray-200">
           <h2 className="text-lg font-medium mb-3">Wind Speed</h2>

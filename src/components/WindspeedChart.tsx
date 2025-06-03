@@ -235,7 +235,7 @@ export default function WindspeedChart() {
       x: {
         title: {
           display: true,
-          text: 'Time (5-minute intervals)'
+          text: 'Time (past 10 minutes)'
         },
         ticks: {
           maxRotation: 45,

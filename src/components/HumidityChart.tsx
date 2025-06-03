@@ -192,7 +192,7 @@ export default function HumidityChart() {
       x: {
         title: {
           display: true,
-          text: 'Time'
+          text: 'Time (past 10 minutes)'
         }
       }
     },

@@ -150,7 +150,7 @@ export default function TemperatureChart() {
       x: {
         title: {
           display: true,
-          text: 'Time'
+          text: 'Time (past 10 minutes)'
         }
       }
     },

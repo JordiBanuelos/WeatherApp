@@ -8,9 +8,9 @@ export async function POST() {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        start: "-30m",
+        start: "-10m",
         filter: {
-          name: "wxt.rain.accumulation",
+          name: "aqt.gas.co",
           vsn: "W08D"
         }
       })
