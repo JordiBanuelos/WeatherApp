@@ -78,7 +78,7 @@ export default function RootLayout({
             <nav className="flex space-x-6 mt-4 md:mt-0">
               <Link href="/" className="hover:text-gray-900 dark:hover:text-white">Home</Link>
               <Link href="/about" className="hover:text-gray-900 dark:hover:text-white">About</Link>
-              <Link href="/projects" className="hover:text-gray-900 dark:hover:text-white">Projects</Link>
+              <Link href="/Projects" className="hover:text-gray-900 dark:hover:text-white">Projects</Link>
               <Link href="/contact" className="hover:text-gray-900 dark:hover:text-white">Contact</Link>
             </nav>
 
