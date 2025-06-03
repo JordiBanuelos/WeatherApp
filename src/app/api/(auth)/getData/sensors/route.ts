@@ -10,7 +10,7 @@ export async function POST() {
       body: JSON.stringify({
         start: "-10m",
         filter: {
-          name: "env.temperature",
+          name: "aqt.env.temp",
           vsn: "W08D"
         }
       })
