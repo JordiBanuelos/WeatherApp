@@ -15,7 +15,7 @@ export default function DashboardPage() {
       <div className="bg-white rounded-lg shadow-md p-5 mb-6 border border-gray-200">
         <h2 className="text-xl font-medium mb-2 text-gray-700">About This Project</h2>
         <p className="text-gray-600 leading-relaxed">
-          The W08D Sensor Dashboard visualizes real-time temperature data collected from IoT sensors.
+          The W08D Sensor Dashboard visualizes real-time temperature data collected from IoT sensors at Northeastern Illinois University.
           This platform enables monitoring of environmental conditions with intuitive displays and
           interactive charts, helping users make informed decisions based on temperature trends.
         </p>
